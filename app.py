@@ -3,7 +3,6 @@ import openai
 
 # Initialize OpenAI API using the key
 openai.api_key = st.secrets["open_api_key"]
-st.write(st.secrets)
 # Title of the web app
 st.title("GPT-3.5 Streamlit App")
 
