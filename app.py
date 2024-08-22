@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Initialize OpenAI API
-openai.api_key = st.secrets["sk-E6pxB5UNVgyZpyn5HENtXO7VA3Ik15790fGKGCA8gGT3BlbkFJskFIg4VvK9tPZ0Q5e9xEx6JysBEAkkZd9wG6JZRksA"]
+openai.api_key = st.secrets["api-key"]
 
 # Title of the web app
 st.title("GPT-4 Streamlit App")
