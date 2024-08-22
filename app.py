@@ -5,7 +5,7 @@ import openai
 openai.api_key = st.secrets["api-key"]
 
 # Title of the web app
-st.title("GPT-4 Streamlit App")
+st.title("GPT-3.5 Streamlit App")
 
 # Text input for the user
 user_input = st.text_area("Enter your prompt here:")
